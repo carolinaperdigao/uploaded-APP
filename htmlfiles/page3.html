@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/page3.css">
+    <script src="js/page3.js"></script>
+    
+
+</head>
+<body>
+<div class="top-bar">
+    <h1>FASE 3</h1>
+</div>
+
+    <p class="ptext">
+        "... pois é em você que eu tenho minha melhor versão e é em você que meu coração está."
+    </p>
+<div class="charada-container">
+    <p class="pquestion">A resposta é o nome de alguém que nós dois amamos.</p>
+    <div class="input-group">
+        <div class="InputContainer">
+            <input class="input" type="text" id="answer" placeholder="Digite sua resposta aqui">
+        </div>
+        <button onclick="checkAnswer()">Verificar</button>
+    </div>
+</div>
+
+
+<audio id="meowSound" src="../static/mp3/meow.mp3" preload="auto"></audio>
+
+<button class="btn-hint" onclick="playMeow()">Dica</button>
+
+</body>
+</html>
